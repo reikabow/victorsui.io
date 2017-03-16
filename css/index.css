@@ -1,6 +1,96 @@
-#introduction p {
-    padding-top: 200px;
-    max-width: 30em;
+/*
+EERIE BLACK
+#191716
+
+DARK SLATE GRAY
+#2f4f4f
+
+JELLY BEAN
+#db504a
+
+BITTERSWEET
+#ff6f59
+
+BLANCHED ALMOND
+#ffe8c9
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding-top: 1em;
+}
+
+svg {
+    display: block;
     margin: 0 auto;
-    color: darkslateblue;
+}
+
+body section {
+    padding: 0.5em 1.5em;
+    max-width: 35em;
+    margin: 0 auto;
+    color: darkslategray;
+}
+
+h1 {
+    margin: 0 0;
+    color: darksla;
+    font-size: 1.75em;
+    text-align: center;
+}
+
+h2 {
+    margin: 0.5em 0;
+    font-size: 1.25em;
+}
+
+#introduction {
+    text-align: center;
+}
+
+#introduction p:last-child {
+    padding-bottom: 1em;;
+    border-bottom-style: solid;
+    border-bottom-width: 0.1em;
+}
+
+#introduction ul {
+    width: 15em;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 0;
+}
+
+#introduction li {
+    
+    float: left;
+    list-style-type: none;
+    width: 2em; 
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+#introduction ul a {
+    font-size: 2em;
+    color: darkslategray;
+    font-style: normal;
+}
+
+#current_work p {
+    border-left: 0.1em;
+    padding-left: 0.5em;
+    margin-bottom: 2em;
+    border-left-style: solid;
+    border-color: darkslategray;
+}
+
+#past_work p {
+    border-left: 0.1em;
+    padding-left: 0.5em;
+    margin-bottom: 2em;
+    border-left-style: solid;
+    border-color: darkslategray;
 }

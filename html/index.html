@@ -2,22 +2,85 @@
 <html lang="en">
     <head>
         <title>Sui</title>
+        <link rel="icon" href="../img/favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--Bootstrap-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <!--Font Awesome-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <!--Roboto-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <!--svgjs-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.5.0/svg.js" defer></script>
+        <!--d3js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.3/d3.js" defer></script>
+        <script src="../js/index.js" defer></script>
         <link rel="stylesheet" type="text/css" href="../css/index.css"
     </head>
     <body>
+        <header>
+            <svg width="240" height="60">
+                <circle cx="120" cy="30" r="10"></circle>
+                <circle cx="120" cy="30" r="10"></circle>
+                <circle cx="120" cy="30" r="10"></circle>
+            </svg>
+        </header>
         <section id="introduction">
             <p>
-                Hello, my name is Victor Sui. I am studying computer science at the
-                University of Illinois at Urbana-Champaign. I enjoy front-end design
-                and food blogging. Currently I'm working at the DASlab as a student
-                researcher. Lorem ispem dolorus ontario. <a href="test">Link</a>
+                Hello, my name is Victor Sui. I'm a third-year computer science student studying at the
+                University of Illinois at Urbana-Champaign. I enjoy all things 
+                computer science, from engineering to theory. Currently I'm working at the
+                <a href="http:/www.daslab.illinois.edu">Illinois&nbsp;DASLab</a>
+                as a student researcher in deep reinforcement learning.
+
+                <ul id="links">
+                    <li>
+                        <a href="https://github.com/vsui" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/victorsui/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://vsui.github.io" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/vsuii" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="mailto:vsui2@illinois.edu"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
             </p>
-            <i class="fa fa-facebook"></i>
+        </section>
+
+        <section id="current_work">
+            <div id="daslab">
+                <h2>
+                    Illinois DASLab
+                </h2>
+                <p class="description">
+                    I began working at the DASLab the fall of my sophomore year,
+                    doing research in control theory. Now, I implement and train
+                    deep reinforcement learning algorithms on the campus
+                    supercomputer.
+                </p>
+            </div>
+            <div id="fake_random">
+                <h2>
+                    Fake Random Points
+                </h2>
+                <p class="description">
+                    The Fake Randomness Project began out of a math honors
+                    project and has expanded into several web apps and
+                    award-winning presentations. Its goal is to attempt to quantify
+                    the likelihood of some distribution being 'random'.
+                    I created a <a href="https://github.com/vsui/fake-random-points">web app</a> with Express
+                    and Highcharts to examine randomness in 1D and 2D distributions.
+                    <br \>
+                    This project has been selected for presentation
+                    at the Illinois Undergraduate Research Symposium.
+                </p>
+            </div>
         </section>
     </body>
 </html>
