@@ -12,7 +12,7 @@ function scatter(circles) {
 }
 
 function join(circles) {
-    circles.transition().duration(1000).style("fill", "darkslategray").attr("cx", 120);
+    circles.transition().duration(1000).style("fill", "white").attr("cx", 120);
 }
 
 var circles = d3.selectAll("circle");
@@ -35,5 +35,6 @@ h2s.style("color", (d) => { return d; });
 
 var bottom_border = d3.selectAll("#introduction p:last-child");
 
-setInterval(() => { scatter(circles) }, 1000);
+var scatter_interval = setInterval(() => { scatter(circles) }, 1000);
+
 setInterval(() => { bottom_border.transition().duration(1000).style("border-color", randomColor()); }, 1000);
